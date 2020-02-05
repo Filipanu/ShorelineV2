@@ -67,10 +67,13 @@ Example case: 100k GUIDs generated in 0.054 sec with ~6k duplicates:
 generator.cpp 
   - contains all the code
   - generates "durations.txt" (contains how long each thread took to make the requests) and "GUIDs.txt" (containes all GUIDs generated)
+  
 sum_durations.py
-  - sums up all the thread durations to compute 
+  - sums up all the thread durations to compute
+
 max_duration.py
   - thread with longest time to complete requests
+
 duplicate_finder.py
   - shows how many duplicates were found
  
