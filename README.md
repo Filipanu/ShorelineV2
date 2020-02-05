@@ -64,14 +64,14 @@ Example case: 100k GUIDs generated in 0.054 sec with ~6k duplicates:
  - this is why for real-world scenarios a 128 bit GUID is used
  
 # files
- - generator.cpp 
+generator.cpp 
   - contains all the code
   - generates "durations.txt" (contains how long each thread took to make the requests) and "GUIDs.txt" (containes all GUIDs generated)
- - sum_durations.py
+sum_durations.py
   - sums up all the thread durations to compute 
- - max_duration.py
+max_duration.py
   - thread with longest time to complete requests
- - duplicate_finder.py
+duplicate_finder.py
   - shows how many duplicates were found
  
   
